@@ -1,4 +1,4 @@
-const { App } = require("@slack/bolt"); // ExpressReceiver
+const { App } = require("@slack/bolt");
 const cron = require('node-cron');
 const { WebClient, LogLevel } = require("@slack/web-api");
 const {MongoClient} = require('mongodb');
