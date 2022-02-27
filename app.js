@@ -85,22 +85,6 @@ app.view({ callback_id: 'view_1', type: 'view_submission' }, async ({ ack, body,
 app.view('view_1', wellbeingController.dataFromView);
 
 
-
-
-
-//----------------------------------------
-
-/* const webClient = new WebClient(process.env.SLACK_BOT_TOKEN, {
-    // LogLevel can be imported and used to make debugging simpler
-    logLevel: LogLevel.DEBUG
-  }); */
-
-/* const receiver = new ExpressReceiver({
-    signingSecret: process.env.SLACK_SIGNING_SECRET,
-  });
-  */
-
-
 (async () => {
   const port = 3000
   // Start your app
@@ -114,42 +98,6 @@ mongoose.connect(process.env.MONGO_LOGIN_URL,
   .then(() =>  console.log('connection succesful'))
   .catch((err) => console.error(err));
   
-// async function main() {
-//     const uri = process.env.MONGO_LOGIN_URL;
-//     const client = new MongoClient(uri);
- 
-//     try {
-//         // Connect to the MongoDB cluster
-//         await client.connect();
- 
-//         // Make the appropriate DB calls
-//         await  listDatabases(client);
-
-//         await createListing(client,
-//             {
-//                 name: "Not Lovely Loft",
-//                 summary: "Not A charming loft in Paris",
-//                 bedrooms: 2,
-//                 bathrooms: 3
-//             }
-//         );
-
-//     //await qryDatabases(client);
-
-//     //Call the chat.postMessage method using the WebClient
-//     /*const result = await webClient.chat.postMessage({
-//         channel: 'hackathon-greenohana',
-//         text: "Hello world P"
-//     });
-//     console.log(result); */
- 
-//     } catch (e) {
-//         console.error(e);
-//     } finally {
-//         await client.close();
-//     }
-// }
-// main().catch(console.error);
 
 async function listDatabases(client){
     databasesList = await client.db().admin().listDatabases();
