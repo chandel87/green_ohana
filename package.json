@@ -1,0 +1,35 @@
+{
+  "name": "green_ohana",
+  "version": "1.0.0",
+  "description": "Green Ohana : Stepping towards the greener future",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Green Ohana",
+  "license": "ISC",
+  "dependencies": {
+    "@slack/bolt": "^3.10.0",
+    "@slack/socket-mode": "^1.2.0",
+    "@slack/web-api": "^6.7.0",
+    "bluebird": "^3.7.2",
+    "debug": "^4.3.3",
+    "mongoose": "^6.2.3",
+    "mongodb": "^4.4.0",
+    "node-cron": "^3.0.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.0",
+    "nodemon": "^2.0.15"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chandel2212/greenohana.git"
+  },
+  "bugs": {
+    "url": "https://github.com/chandel2212/greenohana/issues"
+  },
+  "homepage": "https://github.com/chandel2212/greenohana#readme"
+}

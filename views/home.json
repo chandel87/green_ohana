@@ -1,0 +1,62 @@
+{
+	"type": "home",
+	"blocks": [
+		{
+			"type": "header",
+			"text": {
+				"type": "plain_text",
+				"text": "Welcome to :green-ohana: Let us help performing your bit for :earth_spin: sustainability."
+			}
+		},
+		{
+			"type": "actions",
+			"elements": [
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"text": "Your Carbon Footprint",
+						"emoji": true
+					},
+					"style": "primary",
+					"value": "getonecfp"
+				},
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"text": "Schedule a Reminder",
+						"emoji": true
+					},
+					"style": "primary",
+					"value": "getonecfp"
+				},
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"text": "Get a health Tip",
+						"emoji": true
+					},
+					"value": "health_tip",
+                    "action_id": "health_tip"
+				},
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"text": "Interesting Facts",
+						"emoji": true
+					},
+					"value": "fact",
+                    "action_id": "fact"
+				}
+			]
+		},
+		{
+			"type": "image",
+			"image_url": "https://www.hanoverconservancy.org/wp-content/uploads/2020/09/Environment.png",
+			"alt_text": "Sustainable Earth"
+		}
+	]
+}

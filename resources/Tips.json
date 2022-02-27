@@ -1,0 +1,30 @@
+[
+    {
+      "message": "Eat a healthy diet.",
+      "type": "health"
+    },
+    {
+      "message": "Consume less salt and sugar.",
+      "type": "health"
+    },
+    {
+      "message": "Reduce intake of harmful fats.",
+      "type": "health"
+    },
+    {
+      "message": "Avoid harmful use of alcohol.",
+      "type": "health"
+    },
+    {
+      "message": "Don't smoke.",
+      "type": "health"
+    },
+    {
+      "message": "Be active.",
+      "type": "health"
+    },
+    {
+      "message": "Check your blood pressure regularly.",
+      "type": "health"
+    }
+  ]
