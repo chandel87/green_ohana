@@ -99,7 +99,6 @@ app.view('view_1', wellbeingController.dataFromView);
     signingSecret: process.env.SLACK_SIGNING_SECRET,
   });
   */
-//app.message(/^(tip|hello|hey).*/, wellbeingController.message); // doesn't work
 
 
 (async () => {
