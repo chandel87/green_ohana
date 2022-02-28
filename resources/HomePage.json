@@ -1,0 +1,65 @@
+{
+    "title": {
+      "type": "plain_text",
+      "text": "FootprintSurvey :foot:",
+      "emoji": true
+    },
+    "type": "modal",
+    "callback_id" : "view_3",
+    "blocks": [
+      {
+        "type": "section",
+        "text": {
+          "type": "mrkdwn",
+          "text": "How much do you use in your home :house_with_garden: ?"
+        }
+      },
+      {
+        "type": "input",
+        "block_id": "block_1",
+        "element": {
+          "type": "plain_text_input",
+          "action_id": "actionId_1"
+        },
+        "label": {
+          "type": "plain_text",
+          "text": "Electricity Bill Paid Last Month in Rupees?",
+          "emoji": true
+        }
+      },
+      {
+        "type": "input",
+        "block_id": "block_2",
+        "element": {
+          "type": "plain_text_input",
+          "action_id": "actionId_2"
+        },
+        "label": {
+          "type": "plain_text",
+          "text": "WaterBill Paid Last Month in Rupees?",
+          "emoji": true
+        }
+      },
+      {
+        "type": "section",
+        "text": {
+          "type": "mrkdwn",
+          "text": " "
+        },
+        "accessory": {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Next",
+            "emoji": true
+          },
+          "value": "click_me_123",
+          "action_id": "button_electricity"
+        }
+      }
+    ],
+    "submit": {
+      "type": "plain_text",
+      "text": "Submit"
+    }
+  }

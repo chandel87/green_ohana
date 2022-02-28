@@ -1,0 +1,75 @@
+{
+    "title": {
+        "type": "plain_text",
+        "text": "FootprintSurvey :foot:",
+        "emoji": true
+    },
+    "type": "modal",
+    "callback_id" : "view_3",
+    "blocks": [
+        {
+            "type": "section",
+            "text": {
+                "type": "plain_text",
+                "text": "Daily Food Consumption in calories?",
+                "emoji": true
+            }
+        },
+        {
+            "type": "input",
+            "block_id": "block_6",
+            "element": {
+                "type": "plain_text_input",
+                "action_id": "actionId_6"
+            },
+            "label": {
+                "type": "plain_text",
+                "text": "Meat, Fish, Eggs :cut_of_meat:",
+                "emoji": true
+            }
+        },
+        {
+            "type": "input",
+            "block_id": "block_7",
+            "element": {
+                "type": "plain_text_input",
+                "action_id": "actionId_7"
+            },
+            "label": {
+                "type": "plain_text",
+                "text": "Grains & baked goods :cupcake:",
+                "emoji": true
+            }
+        } ,
+        {
+            "type": "input",
+            "block_id": "block_8",
+            "element": {
+                "type": "plain_text_input",
+                "action_id": "actionId_8"
+            },
+            "label": {
+                "type": "plain_text",
+                "text": "Dairy Products :beverage_box:",
+                "emoji": true
+            }
+        },
+        {
+            "type": "input",
+            "block_id": "block_9",
+            "element": {
+                "type": "plain_text_input",
+                "action_id": "actionId_9"
+            },
+            "label": {
+                "type": "plain_text",
+                "text": "Fruits & vegetables :bell_pepper:",
+                "emoji": true
+            }
+        }
+    ],
+    "submit": {
+        "type": "plain_text",
+        "text": "Submit"
+    }
+}

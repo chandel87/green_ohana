@@ -5,8 +5,13 @@
 			"type": "header",
 			"text": {
 				"type": "plain_text",
-				"text": "Welcome to :green-ohana: Let us help performing your bit for :earth_spin: sustainability."
+				"text": "Welcome to :green-ohana:. Let us help you perform your bit for :earth_spin: sustainability."
 			}
+		},
+		{
+			"type": "image",
+			"image_url": "https://www.hanoverconservancy.org/wp-content/uploads/2020/09/Environment.png",
+			"alt_text": "Sustainable Earth"
 		},
 		{
 			"type": "actions",
@@ -35,11 +40,12 @@
 					"type": "button",
 					"text": {
 						"type": "plain_text",
-						"text": "Get a health Tip",
+						"text": "Get a Health Tip",
 						"emoji": true
 					},
 					"value": "health_tip",
-                    "action_id": "health_tip"
+					"style": "primary",
+					"action_id": "health_tip"
 				},
 				{
 					"type": "button",
@@ -49,14 +55,148 @@
 						"emoji": true
 					},
 					"value": "fact",
-                    "action_id": "fact"
+					"style": "primary",
+					"action_id": "fact"
 				}
 			]
 		},
 		{
+			"type": "divider"
+		},
+		{
+			"type": "header",
+			"text": {
+				"type": "plain_text",
+				"text": "Carbon Footprint Calculator"
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "Calculate your *Carbon Footprint* based on your regular activities. \n \n We will deliver personalised set of *Tips* and *Facts* based on this result.\n"
+			}
+		},
+		{
 			"type": "image",
-			"image_url": "https://www.hanoverconservancy.org/wp-content/uploads/2020/09/Environment.png",
-			"alt_text": "Sustainable Earth"
+			"image_url": "https://a.slack-edge.com/5d2a1/img/api/articles/app_home/demo_apphome.gif",
+			"alt_text": "Calculate Carbon Footprint"
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "header",
+			"text": {
+				"type": "plain_text",
+				"text": "Schedule a Reminder"
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "Schedule a *Reminder* to achieve your *Health*, *Wellbeing * and *Sustainability Goals*."
+			}
+		},
+		{
+			"type": "image",
+			"image_url": "https://i.ibb.co/y63dLJs/facts.gif",
+			"alt_text": "Setup Reminder"
+		},
+		{
+			"type": "actions",
+			"elements": [
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"text": "Schedule a Reminder",
+						"emoji": true
+					},
+					"style": "primary",
+					"value": "getonecfp"
+				}
+			]
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "header",
+			"text": {
+				"type": "plain_text",
+				"text": "Health and Sustainability Tips"
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "Get your daily dose of *Health* and *Sustainability Tips* delivered to your inbox."
+			}
+		},
+		{
+			"type": "image",
+			"image_url": "https://i.ibb.co/ZYYfw3j/tip.gif",
+			"alt_text": "Get Health Tips"
+		},
+		{
+			"type": "actions",
+			"elements": [
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"emoji": true,
+						"text": "Get Health Tip"
+					},
+					"style": "primary",
+					"value": "health_tip",
+					"action_id": "health_tip"
+				}
+			]
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "header",
+			"text": {
+				"type": "plain_text",
+				"text": "Interesting Facts"
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "Receive daily dose of *Interesting Facts* right here, to motivate you and stretch towards the *Sustainability* goals."
+			}
+		},
+		{
+			"type": "image",
+			"image_url": "https://i.ibb.co/QFdsdDY/fact3.gif",
+			"alt_text": "Facts"
+		},
+		{
+			"type": "actions",
+			"elements": [
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"text": "Interesting Facts",
+						"emoji": true
+					},
+					"value": "fact",
+					"style": "primary",
+					"action_id": "fact"
+				}
+			]
+		},
+		{
+			"type": "divider"
 		}
 	]
 }

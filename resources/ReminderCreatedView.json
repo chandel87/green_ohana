@@ -1,0 +1,11 @@
+{
+  "blocks": [
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "Reminder created successfully! Use command - /remind list - to see the list of all your reminders."
+      }
+    }
+  ]
+}

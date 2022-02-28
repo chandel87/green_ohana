@@ -1,0 +1,116 @@
+{
+  "blocks": [
+    {
+      "type": "divider"
+    },
+    {
+      "type": "input",
+      "block_id": "reminder-time",
+      "element": {
+        "type": "timepicker",
+        "initial_time": "13:37",
+        "placeholder": {
+          "type": "plain_text",
+          "text": "Select time",
+          "emoji": true
+        },
+        "action_id": "timepicker-action"
+      },
+      "label": {
+        "type": "plain_text",
+        "text": "Select a time for your reminder:",
+        "emoji": true
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "input",
+      "block_id": "reminder-freq",
+      "element": {
+        "type": "static_select",
+        "placeholder": {
+          "type": "plain_text",
+          "text": "Select an frequency for your reminder:",
+          "emoji": true
+        },
+        "options": [
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Once",
+              "emoji": true
+            },
+            "value": "once"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Daily",
+              "emoji": true
+            },
+            "value": "daily"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Monthly",
+              "emoji": true
+            },
+            "value": "monthly"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Weekly",
+              "emoji": true
+            },
+            "value": "weekly"
+          }
+        ],
+        "action_id": "static_select-action"
+      },
+      "label": {
+        "type": "plain_text",
+        "text": "Select a frequency",
+        "emoji": true
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "input",
+      "block_id": "reminder-message",
+      "element": {
+        "type": "plain_text_input",
+        "action_id": "plain_text_input-action"
+      },
+      "label": {
+        "type": "plain_text",
+        "text": "Enter a message for your reminder.",
+        "emoji": true
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "actions",
+      "block_id": "reminder-set-button",
+      "elements": [
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Done",
+            "emoji": true
+          },
+          "value": "click_me_123",
+          "action_id": "reminder-button"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,231 @@
+{
+  "blocks": [
+    {
+      "type": "input",
+      "element": {
+        "type": "radio_buttons",
+        "options": [
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Go for a 10 min walk",
+              "emoji": true
+            },
+            "value": "Go for a 10 min walk."
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Meditate for 10 mins",
+              "emoji": true
+            },
+            "value": "Meditate for 10 mins."
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Drink a glass of water",
+              "emoji": true
+            },
+            "value": "Drink a glass of water."
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Do some stretches",
+              "emoji": true
+            },
+            "value": "Do some stretches"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Take a power nap",
+              "emoji": true
+            },
+            "value": "Take a power nap."
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Read an article on your favourite topics",
+              "emoji": true
+            },
+            "value": "Read an article on your favourite topics."
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Read a page from a book you have been reading",
+              "emoji": true
+            },
+            "value": "Read a page from a book you have been reading."
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Practise deep breathing",
+              "emoji": true
+            },
+            "value": "Practise deep breathing."
+          }
+        ],
+        "action_id": "radio_buttons-action"
+      },
+      "label": {
+        "type": "plain_text",
+        "text": "What do you want to do?",
+        "emoji": true
+      },
+      "block_id": "health-reminder-radio-options"
+    },
+    {
+      "type": "input",
+      "element": {
+        "type": "static_select",
+        "placeholder": {
+          "type": "plain_text",
+          "text": "Select an item",
+          "emoji": true
+        },
+        "options": [
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "in 5 minutes",
+              "emoji": true
+            },
+            "value": "in 5 minutes"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "in 10 minutes",
+              "emoji": true
+            },
+            "value": "in 10 minutes"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "in 1 hour",
+              "emoji": true
+            },
+            "value": "in 1 hour"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "in 2 hours",
+              "emoji": true
+            },
+            "value": "in 2 hours"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "in 5 hours",
+              "emoji": true
+            },
+            "value": "in 5 hours"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "in 12 hours",
+              "emoji": true
+            },
+            "value": "in 12 hours"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "tomorrow",
+              "emoji": true
+            },
+            "value": "tomorrow"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "on Monday",
+              "emoji": true
+            },
+            "value": "on Monday"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "on Tuesday",
+              "emoji": true
+            },
+            "value": "on Tuesday"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "on Wednesday",
+              "emoji": true
+            },
+            "value": "on Wednesday"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "on Thursday",
+              "emoji": true
+            },
+            "value": "on Thursday"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "on Friday",
+              "emoji": true
+            },
+            "value": "on Friday"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "on Saturday",
+              "emoji": true
+            },
+            "value": "on Saturday"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "on Sunday",
+              "emoji": true
+            },
+            "value": "on Sunday"
+          }
+        ],
+        "action_id": "reminder-health-time"
+      },
+      "label": {
+        "type": "plain_text",
+        "text": "When do you want to be reminded?",
+        "emoji": true
+      },
+      "block_id": "health-reminder-time-dropDown"
+    },
+    {
+      "type": "actions",
+      "block_id": "health-reminder-options-block",
+      "elements": [
+        {
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "Done",
+            "emoji": true
+          },
+          "value": "done",
+          "action_id": "health-reminder-options-selected"
+        }
+      ]
+    }
+  ]
+}

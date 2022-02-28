@@ -1,0 +1,40 @@
+{
+  "blocks":[
+    {
+      "block_id": "reminder-block",
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "Pick an option from the dropdown list"
+      },
+      "accessory":
+      {
+        "type": "static_select",
+        "placeholder": {
+          "type": "plain_text",
+          "text": "Select an option",
+          "emoji": true
+        },
+        "options": [
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Set a health reminder",
+              "emoji": true
+            },
+            "value": "health-reminders"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Set a custom reminder",
+              "emoji": true
+            },
+            "value": "add-reminder"
+          }
+        ],
+        "action_id": "static_select-action"
+      }
+    }
+  ]
+}

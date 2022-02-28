@@ -118,28 +118,62 @@ const getAllCarbonFootprint = async ({ack, say}) =>
     }
 };
 
+const getMessage = (type) => {
+    let objs = type == 'health' ? tips : facts;
+    let randomIndex = Math.floor(Math.random() * objs.length);
+    //return (type == 'health' ? 'Health tip' : 'Fact') + ' of the day: ' + objs[randomIndex].message;
+    if(type == 'health')
+    {
+        return "Health tip of the day : " + objs[randomIndex1].message;
+    }
+    else
+    {
+        return "Fact of the day : " + "\n\n" + objs[randomIndex].message + "\n\n" + objs[randomIndex].description + "\n\n" + objs[randomIndex].fact_url + "\n\n" + objs[randomIndex].image_url
+    }
+};
 
 const returnMessage = async (ack, say, type) =>  {
     try {
         await ack();
-        let objs = type == 'health' ? tips : facts;
-        let randomIndex = Math.floor(Math.random() * objs.length);
-        say((type == 'health' ? 'Health tip' : 'Fact') + ' of the day: ' + objs[randomIndex].message);
+        say(getMessage(type));
     } catch (error) {
         console.log("err");
     }
 };
 
-const getHealthTip = async ({command, ack, say, options}) => {
-    returnMessage(ack, say, 'health');
+const getHealthTip = async ({command, ack, say, event, client, body, options}) => {
+    await ack();
+    console.log('getHealthTip!');
+    if (say) {
+        returnMessage(ack, say, 'health');
+    } else {
+        let user, channel;
+        if (event)
+        {
+            user = '<@' + event.user +'>';
+            channel = event.user;
+        } else if (body && body.user) {
+            user = '<@' + body.user.username +'>';
+            channel = body.user.id;
+        } else {
+            user = 'There';
+            channel = process.env.CHANNEL || 'hackathon-greenohana';
+        }
+        client.chat.postMessage({
+            channel: channel,
+            text: 'Hello ' + user +', ' + getMessage('health')
+        });
+    }
+    
 };
 
 const getFact = async ({command, ack, say, options}) => {
     returnMessage(ack, say, 'fact');
 };
 
-const welcomeFact = async ({ event, client, body, logger }) => {
-    console.log('welcomeFact!');
+const welcomeFact = async ({ ack, event, client, body, logger }) => {
+    if (ack)
+        await ack();
     let randomIndex = Math.floor(Math.random() * facts.length);
     let user, channel;
     if (event)
@@ -155,7 +189,8 @@ const welcomeFact = async ({ event, client, body, logger }) => {
     }
     client.chat.postMessage({
         channel: channel,
-        text: 'Hello ' + user +', Here is a :circle-green: fact for you: ' + facts[randomIndex].message
+        // text: 'Hello ' + user +', Here is a :circle-green: fact for you: ' + facts[randomIndex].message
+        text: "Hi Green Family, did you know ??? " + "\n\n" + facts[randomIndex].message + "\n\n" + facts[randomIndex].description + "\n\n" + facts[randomIndex].fact_url + "\n\n" + facts[randomIndex].image_url
     });
 };
 

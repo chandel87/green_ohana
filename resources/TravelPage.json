@@ -1,0 +1,140 @@
+{
+    "title": {
+        "type": "plain_text",
+        "text": "FootprintSurvey :foot:",
+        "emoji": true
+    },
+    "submit": {
+        "type": "plain_text",
+        "text": "submit"
+    },
+    "type": "modal",
+    "callback_id" : "view_3",
+    "blocks": [
+        {
+            "type": "section",
+            "block_id": "block_3",
+            "text": {
+                "type": "mrkdwn",
+                "text": "Please select your work location :office: "
+            },
+            "accessory": {
+                "type": "static_select",
+                "placeholder": {
+                    "type": "plain_text",
+                    "text": "Select an item",
+                    "emoji": true
+                },
+                "options": [
+                    {
+                        "text": {
+                            "type": "plain_text",
+                            "text": "Bangalore",
+                            "emoji": true
+                        },
+                        "value": "Bangalore"
+                    },
+                    {
+                        "text": {
+                            "type": "plain_text",
+                            "text": "Hyderabad",
+                            "emoji": true
+                        },
+                        "value": "Hyderabad"
+                    },
+                    {
+                        "text": {
+                            "type": "plain_text",
+                            "text": "Gurgaon",
+                            "emoji": true
+                        },
+                        "value": "Gurgaon"
+                    }
+                ],
+                "action_id": "actionId_3"
+            }
+        },
+        {
+            "type": "section",
+            "text": {
+                "type": "plain_text",
+                "text": "How did you reach office today ?",
+                "emoji": true
+            }
+        },
+        {
+            "block_id": "block_0",
+            "type": "actions",
+            "elements": [
+                {
+                    "type": "radio_buttons",
+                    "options": [
+                        {
+                            "text": {
+                                "type": "plain_text",
+                                "text": "Two-Wheeler",
+                                "emoji": true
+                            },
+                            "value": "Two-Wheeler"
+                        },
+                        {
+                            "text": {
+                                "type": "plain_text",
+                                "text": "Four-Wheeler",
+                                "emoji": true
+                            },
+                            "value": "Four-Wheeler"
+                        },
+                        {
+                            "text": {
+                                "type": "plain_text",
+                                "text": "Train",
+                                "emoji": true
+                            },
+                            "value": "Train"
+                        },
+                        {
+                            "text": {
+                                "type": "plain_text",
+                                "text": "Bus",
+                                "emoji": true
+                            },
+                            "value": "Bus"
+                        }
+                    ],
+                    "action_id": "actionId_0"
+                }
+            ]
+        },
+        {
+            "type": "input",
+            "block_id": "block_4",
+            "element": {
+                "type": "plain_text_input",
+                "action_id": "actionId_4"
+            },
+            "label": {
+                "type": "plain_text",
+                "text": "Distance travelled by you in Kilometers ?",
+                "emoji": true
+            }
+        },
+        {
+            "type": "section",
+            "text": {
+                "type": "mrkdwn",
+                "text": " "
+            },
+            "accessory": {
+                "type": "button",
+                "text": {
+                    "type": "plain_text",
+                    "text": "Next",
+                    "emoji": true
+                },
+                "value": "click_me_123",
+                "action_id": "button_def"
+            }
+        }
+    ]
+}

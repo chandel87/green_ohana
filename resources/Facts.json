@@ -1,75 +1,129 @@
 [
     {
       "message": "Turning down your thermostat by one degree can cut 8% off your fuel bill.",
-      "type": "fact"
+      "type": "fact",
+      "description":"Some of the best energy saving tactics are the ones that don’t require any sacrifice, like turning off the lights when you leave the room.\n But lighting doesn’t account for up to 48 percent of home energy consumption — heating and cooling does, according to the Department of Energy. \n Read more here...",
+      "fact_url":"https://blog.directenergy.com/how-much-can-you-save-by-adjusting-your-thermostat/",
+      "image_url":"https://ibb.co/6P4VpRr"
     },
     {
       "message": "An energy efficient washing machine will use a third less electricity for each wash, which could save you more than the cost of the appliance.",
-      "type": "fact"
+      "type": "fact",
+      "description":"It is not just buying energy efficient products that will save electricity for you; right operation of the same will also make an impact. \n Efficiency of a washing machine depends a lot on how it is used regularly. Washing machine is a very costly appliance to operate and in-efficient \nuse of it can skyrocket your washing costs. The way cloths are washed can actually save you money. Here are some basic tips:",
+      "fact_url":"https://www.bijlibachao.com/appliances/use-washing-machine-efficiently-to-save-electricity.html",
+      "image_url" : "https://ibb.co/qrLBrnD"
     },
     {
       "message": "If every household replaced one roll of regular toilet paper with one recycled post-consumer waste roll, 424,000 trees would be saved.",
-      "type": "fact"
+      "type": "fact",
+      "description":"Our world is changing rapidly. Over the years, human beings have mistreated our planet. Plastic is polluting our oceans, greenhouse gases and \nglobal warming are melting polar icecaps, and more animals are becoming extinct every year. If we don’t do something about this NOW, there will be no Earth for future generations.",
+      "fact_url":"https://www.internationalschoolspartnership.com/can-you-really-make-a-difference-to-our-world-yes-you-can/",
+      "image_url" : "https://ibb.co/G3ZMd3B"
     },
     {
       "message": "Every three months, Americans throw away enough aluminum to rebuild the nation ’s commercial air fleet.",
-      "type": "fact"
+      "type": "fact",
+      "description":"",
+      "fact_url":"",
+      "image_url" : ""
     },
     {
       "message": "The energy saved from one recycled aluminum can will operate a television for three hours.",
-      "type": "fact"
+      "type": "fact",
+      "description":"",
+      "fact_url":"",
+      "image_url" : ""
     },
     {
       "message": "The energy saved from recycling one glass bottle will light a 100-watt light bulb for four hours.",
-      "type": "fact"
+      "type": "fact",
+      "description":"",
+      "fact_url":"",
+      "image_url" : ""
     },
     {
       "message": "Recycling a glass bottle also causes 20% less air pollution & 50% less water pollution than when a new bottle is made from raw materials.",
-      "type": "fact"
+      "type": "fact",
+      "description":"",
+      "fact_url":"",
+      "image_url" : ""
     },
     {
       "message": "Recycling & reusing the material in “tin” cans reduces energy use by 74%, air pollution by 85%, solid waste by 95% & water pollution by 76%.",
-      "type": "fact"
+      "type": "fact",
+      "description":"",
+      "fact_url":"",
+      "image_url" : ""
     },
     {
       "message": "It takes 75,000 trees to print a Sunday Edition of the New York Times.",
-      "type": "fact"
+      "type": "fact",
+      "description":"",
+      "fact_url":"",
+      "image_url" : ""
     },
     {
       "message": "The amount of wood & paper Americans throw away each year is enough to heat 50 million homes for 20 years.",
-      "type": "fact"
+      "type": "fact",
+      "description":"",
+      "fact_url":"",
+      "image_url" : ""
     },
     {
-      "message": "Producing one ton of paper from recycled pulp saves 17 trees, 3 cubic yards of landfill space & 7000 gallons of water. It also reduces air pollutants by 60 pounds, saves 390 gallons of oil & conserves 4200 kilowatt hours of energy – enough to heat a home for half a year.",
-      "type": "fact"
+      "message": "Producing one ton of paper from recycled pulp saves 17 trees, 3 cubic yards of landfill space & 7000 gallons of water. It also reduces air pollutants \nby 60 pounds, saves 390 gallons of oil & conserves 4200 kilowatt hours of energy – enough to heat a home for half a year.",
+      "type": "fact",
+      "description":"",
+      "fact_url":"",
+      "image_url" : ""
     },
     {
       "message": "If Americans recycled just one-tenth of their newspapers, we would save 25 million trees a year.",
-      "type": "fact"
+      "type": "fact",
+      "description":"",
+      "fact_url":"",
+      "image_url" : ""
     },
     {
       "message": "25% of the bottled water you buy is really municipal tap water, so you might as well pass on the plastic bottle.",
-      "type": "fact"
+      "type": "fact",
+      "description":"",
+      "fact_url":"",
+      "image_url" : ""
     },
     {
       "message": "On average, ONE supermarket goes through 60,500,000 paper bags per year! Bring a reusable bag instead!",
-      "type": "fact"
+      "type": "fact",
+      "description":"",
+      "fact_url":"",
+      "image_url" : ""
     },
     {
       "message": "A modern glass bottle takes 4000 years or more to decompose.",
-      "type": "fact"
+      "type": "fact",
+      "description":"",
+      "fact_url":"",
+      "image_url" : ""
     },
     {
       "message": "In the last 170 years, we added 2.4 trillion tons of Carbon Dioxide into our atmosphere. Half of this was added in the last 35 to 50 years.",
-      "type": "fact"
+      "type": "fact",
+      "description":"",
+      "fact_url":"",
+      "image_url" : ""
     },
     {
       "message": "The five warmest years on record have occurred in the last decade.",
-      "type": "fact"
+      "type": "fact",
+      "description":"",
+      "fact_url":"",
+      "image_url" : ""
     },
     {
       "message": "Transportation and housing make up about 60% of the carbon footprint of US households. This is due to the fuels used for transportation and to heat, cool and power our homes.",
-      "type": "fact"
+      "type": "fact",
+      "description":"",
+      "fact_url":"",
+      "image_url" : ""
     }
   ]
 
